@@ -1,0 +1,82 @@
+body{
+    font-size: 1rem;
+    background: #0b0b0b;
+}
+
+#menu-topo{
+    z-index: 999;
+    position: relative;
+    padding: 0.4rem 15px !important;
+    background: #1b1b1b !important;
+}
+    
+/* MENU */
+#menu-institucional{
+    position: absolute;
+    top: 50px;
+    left: 35px;
+    font-size: 0.8rem;
+    border: 5px solid #1b1b1b;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background: #f08600;
+}
+
+    #menu-institucional a{
+        padding: 5px 10px;
+        font-weight: bold;
+        color: #fff;
+    }
+    
+    nav button[type='submit']{
+        padding: 5px 25px;
+        color: #f08600;
+        border: none;
+        background: #2b2b2b;
+    }
+
+.collapse div:first-child{
+    width: 600px;
+}
+
+/* ÁREA DE ACESSO */
+.btnAcesso-Desl{
+    padding: 5px 7px;
+    line-height: 16px;
+    border: 1px solid #f08600;
+    border-radius: 3px;
+    color: #FFF;
+}
+
+    .btnAcesso-Desl strong{
+        color: #f08600;
+    }
+    
+    .btnAcesso-Desl small{
+        color: #959595;
+    }
+/* FIM AREA DE ACESSO */
+/* FIM MENU*/
+
+header{
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background: url(../img/noticia/fundo-laranja.jpg);
+    background-size: cover;
+}
+
+/*SUBSTITUINDO BOOTSTRAP*/
+.input-group{
+    border: 1px solid #2b2b2b;
+    border-radius: 3px !important;
+    background: #1b1b1b;
+}
+
+.form-control{
+    padding: 2px 10px !important;
+    color: #f08600;
+    border: none;
+    background: #0b0b0b;
+}
