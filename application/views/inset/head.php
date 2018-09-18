@@ -15,10 +15,11 @@
         <link href="./assets/css/fontawesome.min.css" rel="stylesheet" integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7" crossorigin="anonymous">
         
         <!-- JS -->
-        <script src="./assets/js/jquery-3.3.1.min.js" type="text/script"></script>
-        <script src="./assets/js/bootstrap.min.js" type="text/script"></script>
-        <script src="./assets/js/fontawesome.min.js" type="text/script"></script>
-        <script src="./assets/js/solid.min.js" type="text/script"></script>
+        <script src="./assets/js/jquery-3.3.1.min.js"></script>
+        <script src="./assets/js/bootstrap.min.js"></script>
+        <script src="./assets/js/fontawesome.min.js"></script>
+        <script src="./assets/js/solid.min.js"></script>
+        <script src="./assets/js/base.js"></script>
     </head>
     
     <body>
