@@ -1,11 +1,11 @@
     <nav id="menu-topo" class="navbar navbar-expand-md">
         <!-- BOTÃO DE MENU COM BAIXA RESOLUÇÃO -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-institucional" aria-controls="menu-institucional" aria-expanded="false" aria-label="Toggle navigation" style="background: #f08600">
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#menu-institucional" aria-controls="menu-institucional" aria-expanded="false" aria-label="Toggle navigation" style="background: #f08600">
             <i class="fa fa-align-justify"></i>
         </button><!-- FIM BOTÃO -->
         
         <!-- LOGO / HOME -->
-        <a class="navbar-brand d-flex align-items-start m-0 mr-2" title="gameDeveloper">
+        <a href="<?= base_url() ?>" class="navbar-brand d-flex align-items-start m-0 mr-2" title="gameDeveloper">
             <img src="./assets/img/logo/gameDeveloper - Logotipo.png" alt="game developer">
         </a><!-- FIM LOGO / HOME -->
         
@@ -41,7 +41,7 @@
         </div>
         
         <!-- MENU INSTITUCIONAL -->
-        <div id="menu-institucional">
+        <div id="menu-institucional" class="navbar-collapse collapse">
             <ul id="navigation" class="navbar-nav">
                 <li class="nav-item dropdown">
                     <a class="nav-link" href="">O PROJETO</a>
